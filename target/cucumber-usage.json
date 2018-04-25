@@ -1,0 +1,74 @@
+[
+  {
+    "source": "^i should see the user form page$",
+    "steps": [
+      {
+        "name": "i should see the user form page",
+        "aggregatedDurations": {
+          "average": 2.343211695,
+          "median": 2.343211695
+        },
+        "durations": [
+          {
+            "duration": 2.343211695,
+            "location": "Login.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^i navigate to the login page$",
+    "steps": [
+      {
+        "name": "i navigate to the login page",
+        "aggregatedDurations": {
+          "average": 9.487198665,
+          "median": 9.487198665
+        },
+        "durations": [
+          {
+            "duration": 9.487198665,
+            "location": "Login.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^i enter the username as admin and password as admin$",
+    "steps": [
+      {
+        "name": "i enter the username as admin and password as admin",
+        "aggregatedDurations": {
+          "average": 2.236098298,
+          "median": 2.236098298
+        },
+        "durations": [
+          {
+            "duration": 2.236098298,
+            "location": "Login.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^i click the login button$",
+    "steps": [
+      {
+        "name": "i click the login button",
+        "aggregatedDurations": {
+          "average": 2.271643638,
+          "median": 2.271643638
+        },
+        "durations": [
+          {
+            "duration": 2.271643638,
+            "location": "Login.feature:7"
+          }
+        ]
+      }
+    ]
+  }
+]

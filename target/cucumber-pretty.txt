@@ -1,0 +1,8 @@
+Feature: Login Feature of Facebook
+  This feature deals with the functionality of the application.
+
+  Scenario: Login with correct username and password         [90m# Login.feature:4[0m
+    [32mGiven [0m[32mi navigate to the login page[0m                       [90m# LoginStepsDef.i_navigate_to_the_login_page()[0m
+    [32mWhen [0m[32mi enter the username as admin and password as admin[0m [90m# LoginStepsDef.i_enter_the_username_as_admin_and_password_as_admin()[0m
+    [32mAnd [0m[32mi click the login button[0m                             [90m# LoginStepsDef.i_click_the_login_button()[0m
+    [32mThen [0m[32mi should see the user form page[0m                     [90m# LoginStepsDef.i_should_see_the_user_form_page()[0m
